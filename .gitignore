@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+results/
+*.npz
+*.png
+.DS_Store
+dispersion_relation.png
+*.pt 
+node_modules/ 
+*.pdf 
+package.json  
+package-lock.json  
+scripts/  

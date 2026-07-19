@@ -11,30 +11,30 @@ Hard constraints do **not** improve wavelength preservation. The bottleneck is *
 ## Structure
 HC_PINN_Turing/
 ├── physics/
-│   └── schnakenberg.py           # Model equations, linear stability, dispersion relation
+│ └── schnakenberg.py # Model equations, linear stability, dispersion relation
 ├── numerical/
-│   └── fdm_solver.py             # Finite-difference reference solver (Crank-Nicolson)
+│ └── fdm_solver.py # Finite-difference reference solver (Crank-Nicolson)
 ├── models/
-│   └── pinn.py                   # PINN, HC-PINN, FF-PINN architectures
+│ └── pinn.py # PINN, HC-PINN, FF-PINN architectures
 ├── experiments/
-│   ├── fdm_convergence.py        # FDM convergence & grid independence
-│   ├── fig0_dispersion.py        # Linear stability dispersion relation plot
-│   ├── fig10_fragment.py         # Diagnostic fragment comparison
-│   ├── gamma_sweep.py            # γ sweep (220, 350, 500, 650, 900)
-│   ├── mlp_baseline.py           # Pure data-driven MLP baseline
-│   ├── multi_seed.py             # 5-seed statistics for all configurations
-│   ├── regenerate_figures.py     # Figure regeneration pipeline
-│   ├── sensitivity_Nint.py       # Interior point count sensitivity
-│   └── spectral_evolution.py     # Spectral bias evolution during training
+│ ├── fdm_convergence.py # FDM convergence & grid independence
+│ ├── fig0_dispersion.py # Linear stability dispersion relation plot
+│ ├── fig10_fragment.py # Diagnostic fragment comparison
+│ ├── gamma_sweep.py # γ sweep (220, 350, 500, 650, 900)
+│ ├── mlp_baseline.py # Pure data-driven MLP baseline
+│ ├── multi_seed.py # 5-seed statistics for all configurations
+│ ├── regenerate_figures.py # Figure regeneration pipeline
+│ ├── sensitivity_Nint.py # Interior point count sensitivity
+│ └── spectral_evolution.py # Spectral bias evolution during training
 ├── analysis/
-│   ├── ntk_analysis.py           # Neural Tangent Kernel analysis
-│   └── spectral_residual.py      # PDE residual spectral decomposition
-├── train.py                      # PINN vs HC-PINN training and comparison
-├── train_ff.py                   # Fourier Features PINN experiment
-├── build_paper.py                # One-click paper build pipeline
-├── matplotlibrc.py               # Matplotlib style configuration
-└── results/                      # Output figures and data (gitignored)
-
+│ ├── ntk_analysis.py # Neural Tangent Kernel analysis
+│ └── spectral_residual.py # PDE residual spectral decomposition
+├── train.py # PINN vs HC-PINN training and comparison
+├── train_ff.py # Fourier Features PINN experiment
+├── build_paper.py # One-click paper build pipeline
+├── matplotlibrc.py # Matplotlib style configuration
+└── results/ # Output figures and data (gitignored)
+￼
 ## Requirements
 - Python 3.10+
 - PyTorch

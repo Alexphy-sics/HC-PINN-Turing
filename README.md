@@ -3,7 +3,7 @@
 ## Overview
 Investigation of whether boundary constraint encoding (soft vs hard) affects the spatial pattern fidelity of Physics-Informed Neural Networks (PINNs) in 1D Schnakenberg reaction-diffusion Turing systems.
 
-This repository accompanies the paper submitted to AIP Advances (ADV26-AR-03676).
+
 
 ## Key Result
 Hard constraints do **not** improve wavelength preservation. The bottleneck is **spectral bias** — neural networks preferentially learn low-frequency modes, and neither HC enforcement nor Fourier features reliably capture the correct dominant wavenumber for Turing patterns.

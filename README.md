@@ -30,12 +30,12 @@ HC_PINN_Turing/
 ├── analysis/
 │   ├── ntk_analysis.py           # Neural Tangent Kernel analysis
 │   └── spectral_residual.py      # PDE residual spectral decomposition
-├── paper/                        # Manuscript files (see Paper section below)
+├── paper/                        # Manuscript files (available from author on request)
 ├── train.py                      # PINN vs HC-PINN training and comparison
 ├── train_ff.py                   # Fourier Features PINN experiment
 ├── build_paper.py                # One-click paper build pipeline
 ├── matplotlibrc.py               # Matplotlib style configuration
-└── results/                      # Output figures and data (gitignored; contact author for figure data)
+└── results/                      # Output figures and data (gitignored; contact author for data)
 ```
 
 ## Requirements
@@ -86,8 +86,4 @@ At low $\gamma$, all methods recover the correct wavenumber. At high $\gamma$, a
 
 ## Paper
 
-The manuscript *When Hard Constraints Are Not Enough: Spectral Mode Selection Failure in PINN-Based Turing Pattern Simulation* (v25) targets IJMPC. The paper/ directory contains the manuscript (docx) and the build script (build_v25.js). Figures 12 (spectral monitor on Schnakenberg) and 13 (Burgers verification) are available from the author on request.
-
-- Manuscript: `paper/When_Hard_Constraints_Are_Not_Enough_v25.docx`
-- Build script: `paper/build_v25.js`
-- Figures 1-11: see v22_images/ (contact author for figure data)
+The manuscript *When Hard Constraints Are Not Enough: Spectral Mode Selection Failure in PINN-Based Turing Pattern Simulation* (v25) is currently under review. The `paper/` directory and all figure data are available from the corresponding author on request.

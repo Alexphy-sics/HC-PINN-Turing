@@ -39,7 +39,7 @@ u_target = np.interp(x_data.flatten(), x_fdm, u_fdm).astype(np.float32).reshape(
 x_t = torch.tensor(x_data, device=device)
 u_t = torch.tensor(u_target, device=device)
 
-# MLP: 1D input, 2D output (u, v) — we train on u only
+# MLP: 1D input, 2D output (u, v) — trains on u only
 class DataMLP(nn.Module):
     def __init__(self, hidden_layers=6, hidden_dim=64):
         super().__init__()

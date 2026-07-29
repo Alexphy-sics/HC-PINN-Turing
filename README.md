@@ -83,6 +83,3 @@ Multi-seed statistics (N=5 seeds, 12,000 Adam epochs with cosine annealing; data
 
 At low $\gamma$, all methods recover the correct wavenumber. At high $\gamma$, all neural network architectures collapse to the fundamental mode ($k \approx 6.28$, $n=1$) regardless of boundary constraint encoding, a failure driven by spectral bias rather than boundary treatment. FF-PINN at $\sigma=12.5$ shows partial recovery (3/5 seeds correct) but with high variance, while $\sigma=25.0$ overshoots to spurious high-wavenumber modes.
 
-## Paper
-
-The manuscript *When Hard Constraints Are Not Enough: Spectral Mode Selection Failure in PINN-Based Turing Pattern Simulation* (v25) is currently under review. The `paper/` directory and all figure data are available from the corresponding author on request.

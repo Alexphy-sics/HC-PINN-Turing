@@ -30,7 +30,6 @@ HC_PINN_Turing/
 ├── analysis/
 │   ├── ntk_analysis.py           # Neural Tangent Kernel analysis
 │   └── spectral_residual.py      # PDE residual spectral decomposition
-├── paper/                        # Manuscript files (available from author on request)
 ├── train.py                      # PINN vs HC-PINN training and comparison
 ├── train_ff.py                   # Fourier Features PINN experiment
 ├── build_paper.py                # One-click paper build pipeline

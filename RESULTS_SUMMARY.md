@@ -14,7 +14,7 @@
 | 13 | 残差频谱 | 残差功率 86.9% 在 k<12.6 |
 
 ### 第五步：论文更新进行中
-当前：插入 Table 1 + 更新 Discussion → 然后图表重做 + Response letter
+
 
 ### Table 1 数据（来自 multi_seed 实测）
 
